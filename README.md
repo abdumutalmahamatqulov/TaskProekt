@@ -38,7 +38,7 @@ Briefly describe your project, its purpose, and key features.
         ```json
         {
     "ConnectionStrings": {
-        "Connection": "User ID = postgres; Password = 123456; Host = localhost; Port = 5432; Database = Product_MVC;"
+          "DefaultConnectionString": "User ID=postgres;Password=123456;Host=localhost;Database=TASK_Proekt;Port=5432;"
     },
           // other settings...
         }
@@ -46,8 +46,7 @@ Briefly describe your project, its purpose, and key features.
 
 5. **Run Migrations:**
 
-    ```Package manager console
-    add-migration "some words"
+    ```Package Manager Console Host Version 6.8.0.131
 
     update-database
     ```
@@ -58,17 +57,23 @@ Briefly describe your project, its purpose, and key features.
     dotnet run
     ```
     
-7.**Default Admin and User: **
+7.**Default Manager, Admin and User: **
 
-    Admin 
-        name : Jenny@gmail.com; 
-        password: A0601221a_;
+    Admin
+        name : Jalil
+        email : jalil@gmail.com; 
+        password: A9525221a_;
+    Manager
+        name : Alijon;
+        email : alijon@gmail.com;
+        password : B069561b_;
     User 
-        name : Vin@gmail.com;
-        password: B0601221b_;
+        name : Vali;
+        email : vali@gmail.com
+        password: C975421c_;
 
     
-    The application will be accessible at `http://localhost:7265` (or `https://localhost:7265` for HTTPS).
+    The application will be accessible at `http://localhost:7261` (or `https://localhost:7261` for HTTPS).
 
 ## Contributing
 
